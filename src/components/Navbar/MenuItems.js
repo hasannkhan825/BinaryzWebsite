@@ -18,10 +18,10 @@ export const MenuItems = [
         title: 'Contact us',
         url: '#',
         cName: 'nav-links'
-    },
-    {
-        title: 'Sign up',
-        url: '#',
-        cName: 'nav-links-mobile'
     }
+    // {
+    //     title: 'Sign up',
+    //     url: '#',
+    //     cName: 'nav-links-mobile'
+    // }
 ]
