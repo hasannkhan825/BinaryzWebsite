@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Heading {
+    font-size: 100px;
+    align-items: center;
+}
