@@ -1,10 +1,14 @@
 .NavbarItems{
-    background: linear-gradient(90deg, rgb(110, 94, 254), rgba(73, 63, 252, 1) 100%);
+    /* background: linear-gradient(90deg, rgb(110, 94, 254), rgba(73, 63, 252, 1) 100%); */
+    background-color: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-logo {
@@ -12,6 +16,10 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+}
+
+.small-logo{
+    max-width: 3%;
 }
 
 .fa-react
@@ -37,11 +45,10 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
 
 .nav-links:hover{
-    background-color: #6d76f7;
+    background-color:rgba(255,255,255,0.40);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }

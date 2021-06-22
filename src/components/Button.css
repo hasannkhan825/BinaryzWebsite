@@ -1,5 +1,5 @@
 :root {
-    --primary: #3acbf7;
+    --primary: rgba(0,0,0,0.75);
 }
 
 .btn {
