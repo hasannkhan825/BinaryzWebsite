@@ -2,16 +2,16 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Cybersecurity from './components/Cybersecurity';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Landing /> 
-      {/* <Cybersecurity />
+      <Cybersecurity />
       <IOT /> 
-      <Robotics /> */}
+      <Robotics />
     </div>
   );
 }
