@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
