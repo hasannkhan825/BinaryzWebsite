@@ -15,23 +15,27 @@
     
 }
 
+.logo-and-tag{
 
-.section1 h1 {
-    align-items: center;
-    justify-content: center;
-    background-color: yellow;
-    width: 100%;
-    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    align-items:center;
+    margin: auto;
 }
 
 
 .section1 img{
-    height: 100%;
-    position: absolute;
+    height: auto;
+    width: 50%;
+    /* background-color: yellow; */
+    /* position: absolute; */
 }
 
 .section1 p{
     color: white;
-    position: relative;
-    top: 70px;
+    /* position: relative; */
+    /* background-color: red; */
+    /* margin-top: 10%; */
+    font-weight: 300;
 }
