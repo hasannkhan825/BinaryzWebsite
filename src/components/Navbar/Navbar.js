@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuItems } from "./MenuItems";
 import './Navbar.css';
 import  {Button} from '../Button';
-import Logo from '../binarywhite.png';
+import Logo from '../images/binarywhite.png';
 
 class Navbar extends React.Component {
 

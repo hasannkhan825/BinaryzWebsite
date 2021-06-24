@@ -13,7 +13,8 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 justify-content: space-between;
-background: url(${CybBackground});
+// background: url(${CybBackground});
+background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
 background-size: 100% 100%;
 `;
 
