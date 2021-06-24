@@ -28,7 +28,7 @@ margin: 100px 50px 100px;
 
 img{
 float: left;
-  border: 2px solid #575757;
+  ${'' /* border: 2px solid #575757; */}
   padding: 10px;
     width: 300px;
     height: 300px;  
@@ -59,12 +59,7 @@ function Robotics() {
         <div>
             <ContentContainer>
 
-            <Img>
-
-            <img src = {Robot} alt ="cybersecurity" />
-            </Img>
-
-            <Marginer direction = "horizontal" margin = {400} />
+          
             <Description>
             <heading>Robotics</heading>
             <Marginer direction = "vertical" margin = {50} />
@@ -72,6 +67,13 @@ function Robotics() {
 
 
             </Description>
+            <Marginer direction = "horizontal" margin = {400} />
+            <Img>
+
+<img src = {Robot} alt ="cybersecurity" />
+</Img>
+
+
             </ContentContainer>
 
         </div>

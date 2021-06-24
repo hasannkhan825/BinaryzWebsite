@@ -28,7 +28,7 @@ margin: 100px 50px 100px;
 
 img{
 float: left;
-  border: 2px solid #575757;
+  ${'' /* border: 2px solid #575757; */}
   padding: 10px;
     width: 300px;
     height: 300px;  
